@@ -15,3 +15,8 @@
 > Log -> Disables It Too -> Can Change text Aswell
 ```
 ## Demonstration
+
+## Disclaimer
+```
+> The information provided in or through this Website is for educational and informational purposes only and solely as a self-help tool for your own use.
+```
