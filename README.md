@@ -9,7 +9,7 @@
 ```
 ## How It Works
 ```
-> Hooks Req Function -> Any Requests Such As Download Log Login Will Be Dumped To Req.json
+> Hooks Req Function -> Any Requests Such As Download,Log,Login Will Be Dumped To Req.json
 > Error -> Disables The Error Mechanizam Disabling The Error Message
 > Modify -> Disables The integrity Check
 > Log -> Disables It Too -> Can Change text Aswell
