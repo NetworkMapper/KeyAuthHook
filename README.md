@@ -12,7 +12,7 @@
 > Hooks Req Function -> Any Requests Such As Download,Log,Login Will Be Dumped To Req.json
 > Error -> Disables The Error Mechanizam Disabling The Error Message
 > Modify -> Disables The integrity Check
-> Log -> Disables It Too -> Can Change text Aswell
+> Log -> Disables It Too -> Can Change text Aswell If Your Program Does Send A Request You Can Change The Text Computer Name Ip And More
 ```
 ## Demonstration
 
