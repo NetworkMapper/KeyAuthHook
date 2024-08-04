@@ -1,7 +1,7 @@
 ## KeyAuth.cc Hook
 ```
 Hooks KeyAuth.cc Functions - Such As Req,Log,Error,Modify.
-Not Working For All Keyauth Versions Due To The Pattern We Scanning...
+Not Working For All Keyauth Versions Due To The Patterns We Scanning... Or Obsfucations Mutations
 you can always open a pull request and ask me to add it
 Tested On Version That Was Made On: Tuesday, July 2, 2024
 ```
