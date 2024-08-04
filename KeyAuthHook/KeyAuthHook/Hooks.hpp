@@ -49,8 +49,8 @@ namespace Hooks {
 			// you can bypass keyauth here! just need to find the correct string can you do it?
 			return Response;
 		}
-
-		return "";
+		auto Response = ReqLook(data, url);
+		return Response;
 	}
 
 	inline void Start() {
