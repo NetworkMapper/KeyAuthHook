@@ -6,7 +6,7 @@
 #include "PatternScanner.hpp"
 
 namespace Patterns {
-    UINT64 Error = (UINT64)PTRSCAN::PatternScan(GetModuleHandle(NULL), "48 89 5C 24 10 57 48 81");
+        UINT64 Error = (UINT64)PTRSCAN::PatternScan(GetModuleHandle(NULL), "48 89 5C 24 10 57 48 81");
 	UINT64 Modify = (UINT64)PTRSCAN::PatternScan(GetModuleHandle(NULL), "48 89 5C 24 08 48 89 74 24 10 48");
 	UINT64 Req = (UINT64)PTRSCAN::PatternScan(GetModuleHandle(NULL), "48 89 5C 24 20 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C");
 }
