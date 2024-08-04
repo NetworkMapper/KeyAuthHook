@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Modules">
+      <UniqueIdentifier>{bb3b207d-7a96-4626-a521-e7e632f7e106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{11a54f29-0ab5-4285-8e44-c524e99721d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\Minhook">
+      <UniqueIdentifier>{8c1dd28f-7305-4f6a-840d-2558946a603b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\Minhook\hde">
+      <UniqueIdentifier>{415f6f20-706e-4945-b5fc-8199dd5a627b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\buffer.c">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hde\hde32.c">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hde\hde64.c">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hook.c">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\trampoline.c">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>src\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\trampoline.h">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\buffer.h">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\hde32.h">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\hde64.h">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\pstdint.h">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\table32.h">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\table64.h">
+      <Filter>ext\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\MinHook.h">
+      <Filter>ext\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScanner.hpp">
+      <Filter>src\Modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
