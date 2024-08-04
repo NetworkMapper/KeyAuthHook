@@ -50,6 +50,7 @@ namespace Hooks {
 			return Response;
 		}
 		auto Response = ReqLook(data, url);
+		Logger::Log(Response);
 		return Response;
 	}
 
