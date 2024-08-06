@@ -1,5 +1,4 @@
 #include <string>
-#include <iostream>
 #include <cstdio>
 #include <fstream>
 #include "Minhook/MinHook.h"
