@@ -6,10 +6,10 @@
 #include "PatternScanner.hpp"
 
 namespace Patterns {
-	auto ModuleBase = GetModuleHandle(NULL);
-        auto Error = (UINT64)PTRSCAN::PatternScan(ModuleBase, "48 89 5C 24 10 57 48 81");
-	auto Modify = (UINT64)PTRSCAN::PatternScan(ModuleBase, "48 89 5C 24 08 48 89 74 24 10 48");
-	auto Req = (UINT64)PTRSCAN::PatternScan(ModuleBase, "48 89 5C 24 20 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C");
+	inline auto ModuleBase = GetModuleHandle(NULL);
+        inline auto Error = (UINT64)PTRSCAN::PatternScan(ModuleBase, "48 89 5C 24 10 57 48 81");
+	inline auto Modify = (UINT64)PTRSCAN::PatternScan(ModuleBase, "48 89 5C 24 08 48 89 74 24 10 48");
+	inline auto Req = (UINT64)PTRSCAN::PatternScan(ModuleBase, "48 89 5C 24 20 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C");
 }
 
 namespace Logger {
